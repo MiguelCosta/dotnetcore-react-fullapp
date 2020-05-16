@@ -20,6 +20,10 @@ $ npm start
 $ dotnet ef migrations add "ActivityEntityAdded" -p .\Persistent\ -s .\API\
 ```
 
+**MediatR**
+
+Package: MediatR.Extensions.Microsoft.DependencyInjection
+
 **Command to create react project**
 
 ```bash
