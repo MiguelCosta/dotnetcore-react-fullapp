@@ -2,22 +2,40 @@
 
 # Notes
 
+**Run application**
+
+```
+// run DotNet API
+$ cd API
+$ dotnet watch run
+
+// run React UI
+$ cd client-app
+$ npm start
+```
+
+**Add migrations**
+
+```
+$ dotnet ef migrations add "ActivityEntityAdded" -p .\Persistent\ -s .\API\
+```
+
 **Command to create react project**
 
 ```bash
 // Create the project
-npx create-react-app client-app --use-npm --typescript
+$ npx create-react-app client-app --use-npm --typescript
 
 // Starts the development server.
-npm start
+$ npm start
 
 // Bundles the app into static files for production.
-npm run build
+$ npm run build
 
 // Starts the test runner.
-npm test
+$ npm test
 
 // Removes this tool and copies build dependencies, configuration files
 // and scripts into the app directory. If you do this, you can’t go back!
-npm run eject
+$ npm run eject
 ```
