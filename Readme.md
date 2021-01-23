@@ -47,3 +47,8 @@ $ npm test
 # and scripts into the app directory. If you do this, you can’t go back!
 $ npm run eject
 ```
+
+
+**Links**
+
+- Create VS Code snippets [https://snippet-generator.app/](https://snippet-generator.app/)
