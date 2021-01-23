@@ -14,10 +14,14 @@ $ cd client-app
 $ npm start
 ```
 
-**Add migrations**
+**Database**
 
-```
+```bash
+# Add migrations
 $ dotnet ef migrations add "ActivityEntityAdded" -p .\Persistent\ -s .\API\
+
+# Drop database
+$ dotnet ef database drop -p .\Persistence\ -s .\API\
 ```
 
 **MediatR**

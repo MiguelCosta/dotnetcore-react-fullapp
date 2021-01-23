@@ -31,7 +31,7 @@ namespace API
                 {
                     policy
                         .AllowAnyHeader()
-                        .AllowAnyHeader()
+                        .AllowAnyMethod()
                         .WithOrigins("http://localhost:3000");
                 });
             });
