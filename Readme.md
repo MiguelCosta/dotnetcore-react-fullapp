@@ -4,12 +4,12 @@
 
 **Run application**
 
-```
-// run DotNet API
+```bash
+# run DotNet API
 $ cd API
 $ dotnet watch run
 
-// run React UI
+# run React UI
 $ cd client-app
 $ npm start
 ```
@@ -27,19 +27,23 @@ Package: MediatR.Extensions.Microsoft.DependencyInjection
 **Command to create react project**
 
 ```bash
-// Create the project
+# Create the project
 $ npx create-react-app client-app --use-npm --typescript
 
-// Starts the development server.
+# If you clone this repo
+$ cd client-app
+$ npm install
+
+# Starts the development server.
 $ npm start
 
-// Bundles the app into static files for production.
+# Bundles the app into static files for production.
 $ npm run build
 
-// Starts the test runner.
+# Starts the test runner.
 $ npm test
 
-// Removes this tool and copies build dependencies, configuration files
-// and scripts into the app directory. If you do this, you can’t go back!
+# Removes this tool and copies build dependencies, configuration files
+# and scripts into the app directory. If you do this, you can’t go back!
 $ npm run eject
 ```
