@@ -1,7 +1,7 @@
 import React, { FormEvent, useState } from 'react'
 import { Button, Form, Segment } from 'semantic-ui-react'
 import { IActivity } from '../../../app/models/activity'
-import {v4 as uuid} from 'uuid'
+import { v4 as uuid } from 'uuid'
 
 interface IProps {
   setEditMode: (editMode: boolean) => void;
@@ -11,7 +11,7 @@ interface IProps {
   submitting: boolean;
 }
 
-export const ActivityForm: React.FC<IProps> = ({
+const ActivityForm: React.FC<IProps> = ({
   setEditMode,
   activity: initialFormState,
   createActivity,
@@ -110,4 +110,6 @@ export const ActivityForm: React.FC<IProps> = ({
       </Form>
     </Segment>
   )
-}
+};
+
+export default ActivityForm;
